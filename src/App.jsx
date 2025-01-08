@@ -1,5 +1,5 @@
 import "./styles.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { Physics } from "@react-three/rapier";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -39,7 +39,7 @@ export default function App() {
             />
           ))}
       </Physics>
-      <OrbitControls enablePan enableZoom minPolarAngle={0} />
+      <OrbitControls minDistance={5} maxDistance={25} />
     </Canvas>
   );
 }
