@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { Physics } from "@react-three/rapier";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Environment } from "@react-three/drei";
+import { Environment, OrbitControls } from "@react-three/drei";
 import MagneticModel from "./components/MagneticModel";
 import Pointer from "./components/Pointer";
 
@@ -39,6 +39,7 @@ export default function App() {
             />
           ))}
       </Physics>
+      <OrbitControls enablePan enableZoom minPolarAngle={0} />
     </Canvas>
   );
 }
