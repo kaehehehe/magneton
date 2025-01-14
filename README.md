@@ -6,12 +6,8 @@
 ![스크린샷 2025-01-08 15 16 34](https://github.com/user-attachments/assets/a530e8c5-4d6d-4761-a487-461fb3f0e7f0)
 
 
-## Usage
+![스크린샷 2025-01-14 19 20 01](https://github.com/user-attachments/assets/bbc4aec8-3c5b-4033-b40d-d04d9649c9bc)
 
-```
-  pnpm install
-  pnpm start
-```
 
 ## Reference
 
