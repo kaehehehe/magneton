@@ -6,7 +6,7 @@ import Model from "./Model";
 export default function MagneticModel({ scene, scale, position }) {
   const api = useRef(null);
 
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (api.current) {
       const pos = api.current.translation();
       const distance = 10;
