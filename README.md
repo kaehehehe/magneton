@@ -1,6 +1,6 @@
 # Magnemite (コイル、코일)
 
-- [Demo](https://kaehehehe.github.io/magnemite/)
+- [Demo](https://magnemite-blond.vercel.app/)
 
 
 ![스크린샷 2025-01-08 15 16 34](https://github.com/user-attachments/assets/a530e8c5-4d6d-4761-a487-461fb3f0e7f0)
