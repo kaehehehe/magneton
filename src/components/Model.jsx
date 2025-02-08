@@ -1,6 +1,11 @@
-export default function Model({ scene, scale, position }) {
+import React from "react";
+import { useGLTF } from "@react-three/drei";
+
+export function Model() {
+  const { scene } = useGLTF("magneton.glb");
+
   return (
-    <mesh scale={scale} position={position}>
+    <mesh scale={5} position={[0, 5, 0]}>
       <primitive object={scene} />
     </mesh>
   );
